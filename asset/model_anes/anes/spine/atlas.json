@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "atlas": {
+    "image": "atlas.png",
+    "width": 418,
+    "height": 418,
+    "padding": 2,
+    "alpha_threshold": 128,
+    "square": true
+  },
+  "sprites": {
+    "spine_c_front_base.png": {
+      "x": 2,
+      "y": 2,
+      "width": 224,
+      "height": 214,
+      "source_size": [
+        226,
+        215
+      ],
+      "source_rect": [
+        1,
+        1,
+        224,
+        214
+      ],
+      "trimmed": true
+    },
+    "spine_c_q3_base.png": {
+      "x": 2,
+      "y": 218,
+      "width": 244,
+      "height": 198,
+      "source_size": [
+        250,
+        198
+      ],
+      "source_rect": [
+        5,
+        0,
+        244,
+        198
+      ],
+      "trimmed": true
+    }
+  }
+}

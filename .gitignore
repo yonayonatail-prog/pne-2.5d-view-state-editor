@@ -1,0 +1,35 @@
+# JavaScript / Next.js dependencies and build output
+# The viewer is maintained as a separate nested working repository.
+/viewer/
+/.pnpm-store/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Generated test/install output
+blender_addon/test_output/
+blender_addon/test_install/
+
+# Blender and Krita backup files
+*.blend1
+*.kra~
+
+# Local databases and editor caches
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.tsbuildinfo
+.DS_Store
+
+# Generated viewer review artifacts
+viewer/artifacts/

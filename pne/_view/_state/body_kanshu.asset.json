@@ -1,0 +1,101 @@
+{
+  "schema_version": "0.1",
+  "id": "kanshu.stand_relaxed.front",
+  "glb": "body_kanshu_connection.glb",
+  "body_facing_yaw_deg": 0,
+  "pixels_per_unit": 100,
+  "head_socket": {
+    "node": "head_socket",
+    "scale": 1.0,
+    "neck_overlap_px": 40
+  },
+  "head_view_policy": {
+    "allowed_view_ids": [
+      "front_0",
+      "front_30",
+      "side_30"
+    ],
+    "yaw_min_deg": -45,
+    "yaw_max_deg": 65,
+    "pitch_min_deg": -15,
+    "pitch_max_deg": 20,
+    "fallback_view_id": "front_30"
+  },
+  "arms": {
+    "left": {
+      "mode": "segmented",
+      "nodes": {
+        "upper_arm": "upper_arm_l",
+        "forearm": "forearm_l",
+        "hand": "hand_l"
+      },
+      "joints": {
+        "shoulder": {
+          "node": "shoulder_l_socket",
+          "min_deg": -8,
+          "max_deg": 8
+        },
+        "elbow": {
+          "node": "elbow_l_socket",
+          "min_deg": -12,
+          "max_deg": 12
+        },
+        "wrist": {
+          "node": "wrist_l_socket",
+          "min_deg": -15,
+          "max_deg": 15
+        }
+      }
+    },
+    "right": {
+      "mode": "baked"
+    }
+  },
+  "supported_body_loops": [
+    "idle",
+    "listening",
+    "thinking_soft"
+  ],
+  "motion_envelope": {
+    "min": [
+      -6.05,
+      -1.15,
+      -8.85
+    ],
+    "max": [
+      4.85,
+      0.55,
+      3.25
+    ],
+    "camera_margin_ratio": 0.06
+  },
+  "composite_profile": {
+    "exposure": -0.08,
+    "temperature": -0.05,
+    "saturation": 0.92,
+    "shadow_tint": [
+      0.1,
+      0.14,
+      0.24
+    ],
+    "highlight_tint": [
+      0.98,
+      0.88,
+      0.74
+    ],
+    "neck_shadow_opacity": 0.42
+  },
+  "source_blend": "kanshu_2_5d.blend",
+  "source_images_packed": [
+    "back_arm_l.PNG",
+    "back_arm_r.PNG",
+    "front_arm_r.PNG",
+    "ftont_arm_l.PNG",
+    "hand_l.PNG",
+    "hand_r.PNG",
+    "neck.PNG",
+    "spine.PNG",
+    "torso.PNG"
+  ],
+  "head_pack_preserved": true
+}

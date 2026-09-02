@@ -1,0 +1,915 @@
+{
+  "version": "0.2",
+  "type": "character_pack",
+  "character_id": "kanshu",
+  "display_name": "看守",
+  "source_reference": "mihon.png",
+  "atlas": "atlas.json",
+  "glb": "kanshu_2_5d.glb",
+  "coordinate_system": {
+    "plane": "XZ",
+    "camera_axis": "-Y",
+    "depth_axis": "Y",
+    "pixels_per_unit": 100.0
+  },
+  "nodes": {
+    "character_root": {
+      "parent": null,
+      "type": "group"
+    },
+    "body_root": {
+      "parent": "character_root",
+      "type": "group"
+    },
+    "torso": {
+      "parent": "body_root",
+      "type": "group"
+    },
+    "neck": {
+      "parent": "body_root",
+      "type": "group"
+    },
+    "head_root": {
+      "parent": "neck",
+      "type": "group"
+    },
+    "face_root": {
+      "parent": "head_root",
+      "type": "group"
+    },
+    "eye_socket_l": {
+      "parent": "face_root",
+      "type": "group"
+    },
+    "eye_socket_r": {
+      "parent": "face_root",
+      "type": "group"
+    },
+    "eye_ball_l": {
+      "parent": "eye_socket_l",
+      "type": "group",
+      "bone": "eye_l"
+    },
+    "eye_ball_r": {
+      "parent": "eye_socket_r",
+      "type": "group",
+      "bone": "eye_r"
+    },
+    "brow_l": {
+      "parent": "face_root",
+      "type": "sprite"
+    },
+    "brow_r": {
+      "parent": "face_root",
+      "type": "sprite"
+    },
+    "brow_glabella_crease": {
+      "parent": "face_root",
+      "type": "overlay"
+    },
+    "mouth": {
+      "parent": "face_root",
+      "type": "sprite"
+    },
+    "hair_back": {
+      "parent": "head_root",
+      "type": "sprite"
+    },
+    "hair_side_lock_l": {
+      "parent": "head_root",
+      "type": "group",
+      "bone": "hair_side_lock_l_root"
+    },
+    "hair_side_lock_r": {
+      "parent": "head_root",
+      "type": "group",
+      "bone": "hair_side_lock_r_root"
+    },
+    "hair_front": {
+      "parent": "head_root",
+      "type": "sprite"
+    },
+    "accessories": {
+      "parent": "head_root",
+      "type": "group"
+    },
+    "upper_arm_l": {
+      "parent": "body_root",
+      "type": "group",
+      "bone": "upper_arm_l"
+    },
+    "forearm_l": {
+      "parent": "upper_arm_l",
+      "type": "group",
+      "bone": "forearm_l"
+    },
+    "hand_l": {
+      "parent": "forearm_l",
+      "type": "group",
+      "bone": "hand_l"
+    },
+    "upper_arm_r": {
+      "parent": "body_root",
+      "type": "group",
+      "bone": "upper_arm_r"
+    },
+    "forearm_r": {
+      "parent": "upper_arm_r",
+      "type": "group",
+      "bone": "forearm_r"
+    },
+    "hand_r": {
+      "parent": "forearm_r",
+      "type": "group",
+      "bone": "hand_r"
+    }
+  },
+  "parts": [
+    {
+      "id": "spine",
+      "type": "body",
+      "asset_id": "spine",
+      "source_path": "spine.PNG",
+      "node": "torso",
+      "depth": 0.24,
+      "render_order": 100,
+      "source_size": [
+        520,
+        556
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "torso",
+      "type": "body",
+      "asset_id": "torso",
+      "source_path": "torso.PNG",
+      "node": "torso",
+      "depth": 0.2,
+      "render_order": 110,
+      "source_size": [
+        665,
+        658
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "back_arm_r",
+      "type": "body",
+      "asset_id": "back_arm_r",
+      "source_path": "back_arm_r.PNG",
+      "node": "upper_arm_r",
+      "depth": 0.18,
+      "render_order": 120,
+      "source_size": [
+        336,
+        267
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "ftont_arm_l",
+      "type": "body",
+      "asset_id": "ftont_arm_l",
+      "source_path": "ftont_arm_l.PNG",
+      "node": "forearm_r",
+      "depth": 0.16,
+      "render_order": 130,
+      "source_size": [
+        413,
+        311
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "back_arm_l",
+      "type": "body",
+      "asset_id": "back_arm_l",
+      "source_path": "back_arm_l.PNG",
+      "node": "upper_arm_l",
+      "depth": 0.15,
+      "render_order": 120,
+      "source_size": [
+        404,
+        850
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "front_arm_r",
+      "type": "body",
+      "asset_id": "front_arm_r",
+      "source_path": "front_arm_r.PNG",
+      "node": "forearm_l",
+      "depth": 0.13,
+      "render_order": 130,
+      "source_size": [
+        534,
+        189
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "neck",
+      "type": "body",
+      "asset_id": "neck",
+      "source_path": "neck.PNG",
+      "node": "neck",
+      "depth": 0.07,
+      "render_order": 300,
+      "source_size": [
+        159,
+        167
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "face_base",
+      "type": "face",
+      "asset_id": "face_base",
+      "source_path": "face_base.PNG",
+      "node": "face_root",
+      "depth": 0.02,
+      "render_order": 400,
+      "source_size": [
+        298,
+        333
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "hair_back",
+      "type": "hair",
+      "asset_id": "hair_back",
+      "source_path": "hair_back.PNG",
+      "node": "hair_back",
+      "depth": 0.0,
+      "render_order": 500,
+      "source_size": [
+        218,
+        311
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "hair_front_side",
+      "type": "hair",
+      "asset_id": "hair_front_side",
+      "source_path": "hair_front_side.PNG",
+      "node": "hair_side_lock_l",
+      "depth": -0.02,
+      "render_order": 510,
+      "source_size": [
+        327,
+        444
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "hair_braised",
+      "type": "hair",
+      "asset_id": "hair_braised",
+      "source_path": "hair_braised.PNG",
+      "node": "hair_side_lock_l",
+      "depth": -0.04,
+      "render_order": 520,
+      "source_size": [
+        179,
+        583
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "hair_front",
+      "type": "hair",
+      "asset_id": "hair_front",
+      "source_path": "hair_front.PNG",
+      "node": "hair_front",
+      "depth": -0.06,
+      "render_order": 530,
+      "source_size": [
+        163,
+        197
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "accessory_hair",
+      "type": "accessory",
+      "asset_id": "accessory_hair",
+      "source_path": "accessory_hair.PNG",
+      "node": "accessories",
+      "depth": -0.08,
+      "render_order": 540,
+      "source_size": [
+        92,
+        148
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "hat",
+      "type": "accessory",
+      "asset_id": "hat",
+      "source_path": "hat.PNG",
+      "node": "accessories",
+      "depth": -0.1,
+      "render_order": 550,
+      "source_size": [
+        383,
+        221
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "eye_l_sclera",
+      "type": "eye",
+      "asset_id": "eye_l_sclera",
+      "source_path": "eye_l_sclera.PNG",
+      "node": "eye_socket_r",
+      "depth": -0.04,
+      "render_order": 600,
+      "source_size": [
+        70,
+        34
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "eye_r_sclera",
+      "type": "eye",
+      "asset_id": "eye_r_sclera",
+      "source_path": "eye_r_sclera.PNG",
+      "node": "eye_socket_l",
+      "depth": -0.04,
+      "render_order": 600,
+      "source_size": [
+        45,
+        33
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "eye_l_core",
+      "type": "eye",
+      "asset_id": "eye_core",
+      "source_path": "eye_core.PNG",
+      "node": "eye_ball_r",
+      "depth": -0.06,
+      "render_order": 610,
+      "source_size": [
+        88,
+        96
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "eye_r_core",
+      "type": "eye",
+      "asset_id": "eye_core",
+      "source_path": "eye_core.PNG",
+      "node": "eye_ball_l",
+      "depth": -0.06,
+      "render_order": 610,
+      "source_size": [
+        88,
+        96
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": true,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "eye_l_highlight",
+      "type": "eye",
+      "asset_id": "eye_l_highlight",
+      "source_path": "eye_l_highlight.PNG",
+      "node": "eye_ball_r",
+      "depth": -0.08,
+      "render_order": 620,
+      "source_size": [
+        37,
+        36
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "eye_r_highlight",
+      "type": "eye",
+      "asset_id": "eye_l_highlight",
+      "source_path": "eye_l_highlight.PNG",
+      "node": "eye_ball_l",
+      "depth": -0.08,
+      "render_order": 620,
+      "source_size": [
+        37,
+        36
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": true,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "eye_l_lid_upper_line",
+      "type": "eyelid",
+      "asset_id": "eye_l_lid_upper_line",
+      "source_path": "eye_l_lid_upper_line.PNG",
+      "node": "eye_socket_r",
+      "depth": -0.1,
+      "render_order": 630,
+      "source_size": [
+        72,
+        30
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "eye_r_lid_upper_line",
+      "type": "eyelid",
+      "asset_id": "eye_r_lid_upper_line",
+      "source_path": "eye_r_lid_upper_line.PNG",
+      "node": "eye_socket_l",
+      "depth": -0.1,
+      "render_order": 630,
+      "source_size": [
+        53,
+        24
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "eye_l_lid_lower_line",
+      "type": "eyelid",
+      "asset_id": "eye_l_lod_lower_line",
+      "source_path": "eye_l_lod_lower_line.PNG",
+      "node": "eye_socket_r",
+      "depth": -0.1,
+      "render_order": 631,
+      "source_size": [
+        39,
+        16
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "eye_r_lid_lower_line",
+      "type": "eyelid",
+      "asset_id": "eye_r_lod_lower_line",
+      "source_path": "eye_r_lod_lower_line.PNG",
+      "node": "eye_socket_l",
+      "depth": -0.1,
+      "render_order": 631,
+      "source_size": [
+        220,
+        41
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "eye_r_lid_upper_detail",
+      "type": "eyelid",
+      "asset_id": "eye_r_lid_upper_line_ridline",
+      "source_path": "eye_r_lid_upper_line_ridline.PNG",
+      "node": "eye_socket_l",
+      "depth": -0.11,
+      "render_order": 632,
+      "source_size": [
+        28,
+        17
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "brow_l",
+      "type": "brow",
+      "asset_id": "brow_l",
+      "source_path": "brow_l.PNG",
+      "node": "brow_l",
+      "depth": -0.12,
+      "render_order": 640,
+      "source_size": [
+        66,
+        21
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "brow_r",
+      "type": "brow",
+      "asset_id": "brow_r",
+      "source_path": "brow_r.PNG",
+      "node": "brow_r",
+      "depth": -0.12,
+      "render_order": 640,
+      "source_size": [
+        41,
+        17
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "mouth",
+      "type": "mouth",
+      "asset_id": "mouth",
+      "source_path": "mouth.PNG",
+      "node": "mouth",
+      "depth": -0.14,
+      "render_order": 650,
+      "source_size": [
+        71,
+        28
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": "mouth"
+    },
+    {
+      "id": "mouth_variant_closed",
+      "type": "mouth",
+      "asset_id": "mouth_closed",
+      "source_path": "mouth_closed.PNG",
+      "node": "mouth",
+      "depth": -0.141,
+      "render_order": 650,
+      "source_size": [
+        37,
+        17
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": false,
+      "variant_group": "mouth"
+    },
+    {
+      "id": "mouth_variant_lagph",
+      "type": "mouth",
+      "asset_id": "mouth_lagph",
+      "source_path": "mouth_lagph.PNG",
+      "node": "mouth",
+      "depth": -0.142,
+      "render_order": 650,
+      "source_size": [
+        56,
+        33
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": false,
+      "variant_group": "mouth"
+    },
+    {
+      "id": "mouth_variant_sad",
+      "type": "mouth",
+      "asset_id": "mouth_sad",
+      "source_path": "mouth_sad.PNG",
+      "node": "mouth",
+      "depth": -0.143,
+      "render_order": 650,
+      "source_size": [
+        48,
+        19
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": false,
+      "variant_group": "mouth"
+    },
+    {
+      "id": "mouth_variant_small_open",
+      "type": "mouth",
+      "asset_id": "mouth_small_open",
+      "source_path": "mouth_small_open.PNG",
+      "node": "mouth",
+      "depth": -0.144,
+      "render_order": 650,
+      "source_size": [
+        38,
+        19
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": false,
+      "variant_group": "mouth"
+    },
+    {
+      "id": "hand_r",
+      "type": "hand",
+      "asset_id": "hand_r",
+      "source_path": "hand_r.PNG",
+      "node": "hand_r",
+      "depth": -0.16,
+      "render_order": 700,
+      "source_size": [
+        210,
+        192
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "hand_l",
+      "type": "hand",
+      "asset_id": "hand_l",
+      "source_path": "hand_l.PNG",
+      "node": "hand_l",
+      "depth": -0.16,
+      "render_order": 700,
+      "source_size": [
+        163,
+        209
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": true,
+      "variant_group": ""
+    },
+    {
+      "id": "mihon_reference",
+      "type": "reference",
+      "asset_id": "mihon",
+      "source_path": "mihon.png",
+      "node": "reference_guide",
+      "depth": 0.8,
+      "render_order": 0,
+      "source_size": [
+        1024,
+        1536
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "flip_x": false,
+      "visible": false,
+      "variant_group": ""
+    }
+  ],
+  "anchors": {
+    "head_center": [
+      552,
+      420
+    ],
+    "neck": [
+      560,
+      620
+    ],
+    "eye_socket_l": [
+      628,
+      388
+    ],
+    "eye_socket_r": [
+      486,
+      390
+    ],
+    "mouth_center": [
+      530,
+      475
+    ],
+    "shoulder_l": [
+      735,
+      700
+    ],
+    "shoulder_r": [
+      335,
+      700
+    ],
+    "hand_l": [
+      790,
+      1140
+    ],
+    "hand_r": [
+      350,
+      270
+    ]
+  },
+  "bones": [
+    "root",
+    "pelvis",
+    "torso",
+    "neck",
+    "head",
+    "eye_l",
+    "eye_r",
+    "hair_side_lock_l_root",
+    "hair_side_lock_l_mid",
+    "hair_side_lock_l_tip",
+    "hair_side_lock_r_root",
+    "hair_side_lock_r_mid",
+    "hair_side_lock_r_tip",
+    "upper_arm_l",
+    "forearm_l",
+    "hand_l",
+    "upper_arm_r",
+    "forearm_r",
+    "hand_r"
+  ],
+  "morph_targets": [
+    "blink_l",
+    "blink_r"
+  ],
+  "capabilities": {
+    "blink": true,
+    "mouth_shapes": [
+      "normal",
+      "closed",
+      "lagph",
+      "sad",
+      "small_open"
+    ],
+    "brow": true,
+    "glabella_crease": true,
+    "hair_physics": true,
+    "body_motion": true,
+    "compound_clip": true,
+    "inference": true
+  },
+  "physics": {
+    "stiffness": 0.72,
+    "damping": 0.18,
+    "gravity": 0.05,
+    "wind": 0.02,
+    "max_angle": 8
+  }
+}

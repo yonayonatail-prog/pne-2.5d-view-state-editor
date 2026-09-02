@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "atlas": {
+    "image": "atlas.png",
+    "width": 391,
+    "height": 391,
+    "padding": 2,
+    "alpha_threshold": 128,
+    "square": true
+  },
+  "sprites": {
+    "chest_c_front_base.png": {
+      "x": 2,
+      "y": 2,
+      "width": 208,
+      "height": 197,
+      "source_size": [
+        208,
+        198
+      ],
+      "source_rect": [
+        0,
+        1,
+        208,
+        197
+      ],
+      "trimmed": true
+    },
+    "chest_c_q3_base.png": {
+      "x": 2,
+      "y": 201,
+      "width": 219,
+      "height": 188,
+      "source_size": [
+        219,
+        188
+      ],
+      "source_rect": [
+        0,
+        0,
+        219,
+        188
+      ],
+      "trimmed": false
+    }
+  }
+}

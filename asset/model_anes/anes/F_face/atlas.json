@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.0",
+  "atlas": {
+    "image": "atlas.png",
+    "width": 1136,
+    "height": 1136,
+    "padding": 2,
+    "alpha_threshold": 128,
+    "square": true
+  },
+  "sprites": {
+    "face_composite_c_front_happening.png": {
+      "x": 2,
+      "y": 2,
+      "width": 353,
+      "height": 377,
+      "source_size": [
+        353,
+        377
+      ],
+      "source_rect": [
+        0,
+        0,
+        353,
+        377
+      ],
+      "trimmed": false
+    },
+    "face_composite_c_front_blush.png": {
+      "x": 357,
+      "y": 2,
+      "width": 354,
+      "height": 376,
+      "source_size": [
+        354,
+        376
+      ],
+      "source_rect": [
+        0,
+        0,
+        354,
+        376
+      ],
+      "trimmed": false
+    },
+    "face_composite_c_front_shock.png": {
+      "x": 713,
+      "y": 2,
+      "width": 354,
+      "height": 376,
+      "source_size": [
+        354,
+        376
+      ],
+      "source_rect": [
+        0,
+        0,
+        354,
+        376
+      ],
+      "trimmed": false
+    },
+    "face_composite_c_front_shobon.png": {
+      "x": 2,
+      "y": 381,
+      "width": 353,
+      "height": 376,
+      "source_size": [
+        353,
+        376
+      ],
+      "source_rect": [
+        0,
+        0,
+        353,
+        376
+      ],
+      "trimmed": false
+    },
+    "face_composite_c_front_smile.png": {
+      "x": 357,
+      "y": 381,
+      "width": 353,
+      "height": 376,
+      "source_size": [
+        353,
+        376
+      ],
+      "source_rect": [
+        0,
+        0,
+        353,
+        376
+      ],
+      "trimmed": false
+    },
+    "face_composite_c_front_sweat.png": {
+      "x": 712,
+      "y": 381,
+      "width": 353,
+      "height": 376,
+      "source_size": [
+        353,
+        376
+      ],
+      "source_rect": [
+        0,
+        0,
+        353,
+        376
+      ],
+      "trimmed": false
+    },
+    "face_composite_c_front_ugly.png": {
+      "x": 2,
+      "y": 759,
+      "width": 354,
+      "height": 375,
+      "source_size": [
+        354,
+        375
+      ],
+      "source_rect": [
+        0,
+        0,
+        354,
+        375
+      ],
+      "trimmed": false
+    },
+    "face_composite_c_front_normal.png": {
+      "x": 358,
+      "y": 759,
+      "width": 353,
+      "height": 374,
+      "source_size": [
+        353,
+        374
+      ],
+      "source_rect": [
+        0,
+        0,
+        353,
+        374
+      ],
+      "trimmed": false
+    },
+    "face_composite_c_front_sad.png": {
+      "x": 713,
+      "y": 759,
+      "width": 352,
+      "height": 374,
+      "source_size": [
+        352,
+        374
+      ],
+      "source_rect": [
+        0,
+        0,
+        352,
+        374
+      ],
+      "trimmed": false
+    }
+  }
+}

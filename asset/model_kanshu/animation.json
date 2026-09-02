@@ -1,0 +1,202 @@
+{
+  "version": "0.2",
+  "character_id": "kanshu",
+  "clips": [
+    {
+      "type": "compound_clip",
+      "id": "blink",
+      "duration": 0.16,
+      "tracks": [
+        {
+          "target": "face.eye_l",
+          "channel": "blink",
+          "keys": [
+            {
+              "time": 0.0,
+              "value": 0.0
+            },
+            {
+              "time": 0.08,
+              "value": 1.0,
+              "ease": "power2.inOut"
+            },
+            {
+              "time": 0.16,
+              "value": 0.0,
+              "ease": "power2.out"
+            }
+          ]
+        },
+        {
+          "target": "face.eye_r",
+          "channel": "blink",
+          "keys": [
+            {
+              "time": 0.0,
+              "value": 0.0
+            },
+            {
+              "time": 0.08,
+              "value": 1.0,
+              "ease": "power2.inOut"
+            },
+            {
+              "time": 0.16,
+              "value": 0.0,
+              "ease": "power2.out"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "compound_clip",
+      "id": "angry",
+      "duration": 0.3,
+      "tracks": [
+        {
+          "target": "face.brow_l",
+          "property": "rotation.z",
+          "keys": [
+            {
+              "time": 0.0,
+              "value": 0
+            },
+            {
+              "time": 0.18,
+              "value": -14,
+              "ease": "power2.out"
+            }
+          ]
+        },
+        {
+          "target": "face.brow_r",
+          "property": "rotation.z",
+          "keys": [
+            {
+              "time": 0.0,
+              "value": 0
+            },
+            {
+              "time": 0.18,
+              "value": 14,
+              "ease": "power2.out"
+            }
+          ]
+        },
+        {
+          "target": "face.brow_glabella_crease",
+          "property": "opacity",
+          "keys": [
+            {
+              "time": 0.0,
+              "value": 0
+            },
+            {
+              "time": 0.12,
+              "value": 1,
+              "ease": "power2.out"
+            }
+          ]
+        },
+        {
+          "target": "face.mouth",
+          "property": "texture",
+          "keys": [
+            {
+              "time": 0.0,
+              "value": "normal"
+            },
+            {
+              "time": 0.18,
+              "value": "sad"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tracks": [
+    {
+      "target": "body.head",
+      "property": "rotation.y",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": 1.2
+        },
+        {
+          "time": 1.0,
+          "value": -1.0
+        },
+        {
+          "time": 1.5,
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "target": "hair_side_lock_l",
+      "property": "rotation.y",
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": 3.0
+        },
+        {
+          "time": 1.0,
+          "value": -2.0
+        },
+        {
+          "time": 1.5,
+          "value": 0.0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "type": "SetNode",
+      "id": "mouth_shape",
+      "target": "face.mouth"
+    },
+    {
+      "type": "TweenNode",
+      "id": "blink_tween",
+      "target": "face.eye_l.blink"
+    },
+    {
+      "type": "SpriteNode",
+      "id": "mouth_sprite",
+      "target": "face.mouth"
+    },
+    {
+      "type": "MorphNode",
+      "id": "blink_morph",
+      "target": "face.eye_l.blink"
+    },
+    {
+      "type": "PhysicsNode",
+      "id": "hair_spring",
+      "target": "hair_side_lock_l"
+    },
+    {
+      "type": "InferenceNode",
+      "id": "voice_expression",
+      "model": "MorphTargetInference",
+      "outputs": {
+        "mouth_open": "face.mouth.open",
+        "eye_open_l": "face.eye_l.open",
+        "eye_open_r": "face.eye_r.open"
+      }
+    }
+  ]
+}

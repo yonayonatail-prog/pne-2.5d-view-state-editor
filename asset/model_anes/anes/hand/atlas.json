@@ -1,0 +1,183 @@
+{
+  "schema_version": "1.0",
+  "atlas": {
+    "image": "atlas.png",
+    "width": 738,
+    "height": 738,
+    "padding": 2,
+    "alpha_threshold": 128,
+    "square": true
+  },
+  "sprites": {
+    "hand_c_front_peace_back.png": {
+      "x": 2,
+      "y": 2,
+      "width": 133,
+      "height": 265,
+      "source_size": [
+        133,
+        265
+      ],
+      "source_rect": [
+        0,
+        0,
+        133,
+        265
+      ],
+      "trimmed": false
+    },
+    "hand_c_front_peace_palm.png": {
+      "x": 137,
+      "y": 2,
+      "width": 134,
+      "height": 264,
+      "source_size": [
+        134,
+        264
+      ],
+      "source_rect": [
+        0,
+        0,
+        134,
+        264
+      ],
+      "trimmed": false
+    },
+    "hand_c_front_sign_palm.png": {
+      "x": 273,
+      "y": 2,
+      "width": 133,
+      "height": 258,
+      "source_size": [
+        133,
+        258
+      ],
+      "source_rect": [
+        0,
+        0,
+        133,
+        258
+      ],
+      "trimmed": false
+    },
+    "hand_c_front_sign_back.png": {
+      "x": 408,
+      "y": 2,
+      "width": 129,
+      "height": 258,
+      "source_size": [
+        129,
+        258
+      ],
+      "source_rect": [
+        0,
+        0,
+        129,
+        258
+      ],
+      "trimmed": false
+    },
+    "hand_c_front_paper_palm.png": {
+      "x": 539,
+      "y": 2,
+      "width": 197,
+      "height": 257,
+      "source_size": [
+        197,
+        257
+      ],
+      "source_rect": [
+        0,
+        0,
+        197,
+        257
+      ],
+      "trimmed": false
+    },
+    "hand_c_front_paper_back.png": {
+      "x": 2,
+      "y": 269,
+      "width": 194,
+      "height": 256,
+      "source_size": [
+        194,
+        256
+      ],
+      "source_rect": [
+        0,
+        0,
+        194,
+        256
+      ],
+      "trimmed": false
+    },
+    "hand_c_front_relaxed_palm.png": {
+      "x": 198,
+      "y": 269,
+      "width": 146,
+      "height": 246,
+      "source_size": [
+        146,
+        246
+      ],
+      "source_rect": [
+        0,
+        0,
+        146,
+        246
+      ],
+      "trimmed": false
+    },
+    "hand_c_front_relaxed_back.png": {
+      "x": 346,
+      "y": 269,
+      "width": 142,
+      "height": 245,
+      "source_size": [
+        5690,
+        2201
+      ],
+      "source_rect": [
+        0,
+        1,
+        142,
+        245
+      ],
+      "trimmed": true
+    },
+    "hand_c_front_rock_back.png": {
+      "x": 490,
+      "y": 269,
+      "width": 157,
+      "height": 209,
+      "source_size": [
+        157,
+        209
+      ],
+      "source_rect": [
+        0,
+        0,
+        157,
+        209
+      ],
+      "trimmed": false
+    },
+    "hand_c_front_rock_palm.png": {
+      "x": 2,
+      "y": 527,
+      "width": 157,
+      "height": 208,
+      "source_size": [
+        157,
+        208
+      ],
+      "source_rect": [
+        0,
+        0,
+        157,
+        208
+      ],
+      "trimmed": false
+    }
+  }
+}

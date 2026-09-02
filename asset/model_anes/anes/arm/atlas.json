@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "atlas": {
+    "image": "atlas.png",
+    "width": 327,
+    "height": 327,
+    "padding": 2,
+    "alpha_threshold": 128,
+    "square": true
+  },
+  "sprites": {
+    "forearm_l_front_base.png": {
+      "x": 2,
+      "y": 2,
+      "width": 104,
+      "height": 179,
+      "source_size": [
+        109,
+        185
+      ],
+      "source_rect": [
+        2,
+        2,
+        104,
+        179
+      ],
+      "trimmed": true
+    },
+    "forearm_r_front_base.png": {
+      "x": 108,
+      "y": 2,
+      "width": 104,
+      "height": 179,
+      "source_size": [
+        109,
+        185
+      ],
+      "source_rect": [
+        3,
+        2,
+        104,
+        179
+      ],
+      "trimmed": true
+    },
+    "forearm_c_q3_base.png": {
+      "x": 214,
+      "y": 2,
+      "width": 111,
+      "height": 144,
+      "source_size": [
+        114,
+        146
+      ],
+      "source_rect": [
+        1,
+        2,
+        111,
+        144
+      ],
+      "trimmed": true
+    },
+    "forearm_r_q3_base.png": {
+      "x": 2,
+      "y": 183,
+      "width": 51,
+      "height": 141,
+      "source_size": [
+        52,
+        145
+      ],
+      "source_rect": [
+        0,
+        1,
+        51,
+        141
+      ],
+      "trimmed": true
+    }
+  }
+}

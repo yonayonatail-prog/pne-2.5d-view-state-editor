@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "atlas": {
+    "image": "atlas.png",
+    "width": 697,
+    "height": 697,
+    "padding": 2,
+    "alpha_threshold": 128,
+    "square": true
+  },
+  "sprites": {
+    "hair_side_c_front_base.png": {
+      "x": 2,
+      "y": 2,
+      "width": 396,
+      "height": 512,
+      "source_size": [
+        398,
+        513
+      ],
+      "source_rect": [
+        1,
+        1,
+        396,
+        512
+      ],
+      "trimmed": true
+    },
+    "hair_front_c_front_base.png": {
+      "x": 400,
+      "y": 2,
+      "width": 295,
+      "height": 283,
+      "source_size": [
+        297,
+        285
+      ],
+      "source_rect": [
+        1,
+        1,
+        295,
+        283
+      ],
+      "trimmed": true
+    },
+    "perker_spindle_c_front_base.png": {
+      "x": 2,
+      "y": 516,
+      "width": 83,
+      "height": 108,
+      "source_size": [
+        84,
+        110
+      ],
+      "source_rect": [
+        0,
+        1,
+        83,
+        108
+      ],
+      "trimmed": true
+    }
+  }
+}

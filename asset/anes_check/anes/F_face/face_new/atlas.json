@@ -1,0 +1,477 @@
+{
+  "schema_version": "2.0",
+  "atlas": {
+    "image": "atlas.png",
+    "width": 1024,
+    "height": 512,
+    "padding": 3,
+    "extrude": true,
+    "alpha_threshold": 0,
+    "trim": true,
+    "square": false
+  },
+  "sprites": {
+    "brow_r": {
+      "x": 72,
+      "y": 461,
+      "width": 74,
+      "height": 39,
+      "packed_x": 69,
+      "packed_y": 458,
+      "packed_width": 80,
+      "packed_height": 45,
+      "source_size": [
+        74,
+        39
+      ],
+      "source_rect": [
+        0,
+        0,
+        74,
+        39
+      ],
+      "trimmed": false,
+      "source_path": "brow_r.PNG"
+    },
+    "eye_l_sclera": {
+      "x": 855,
+      "y": 3,
+      "width": 71,
+      "height": 66,
+      "packed_x": 852,
+      "packed_y": 0,
+      "packed_width": 77,
+      "packed_height": 72,
+      "source_size": [
+        71,
+        66
+      ],
+      "source_rect": [
+        0,
+        0,
+        71,
+        66
+      ],
+      "trimmed": false,
+      "source_path": "eye_l_sclera.PNG"
+    },
+    "eye_l_shock": {
+      "x": 620,
+      "y": 101,
+      "width": 90,
+      "height": 94,
+      "packed_x": 617,
+      "packed_y": 98,
+      "packed_width": 96,
+      "packed_height": 100,
+      "source_size": [
+        90,
+        94
+      ],
+      "source_rect": [
+        0,
+        0,
+        90,
+        94
+      ],
+      "trimmed": false,
+      "source_path": "eye_l_shock.PNG"
+    },
+    "eye_r_core": {
+      "x": 447,
+      "y": 446,
+      "width": 55,
+      "height": 58,
+      "packed_x": 444,
+      "packed_y": 443,
+      "packed_width": 61,
+      "packed_height": 64,
+      "source_size": [
+        55,
+        58
+      ],
+      "source_rect": [
+        0,
+        0,
+        55,
+        58
+      ],
+      "trimmed": false,
+      "source_path": "eye_r_core.PNG"
+    },
+    "eye_r_highlight": {
+      "x": 200,
+      "y": 461,
+      "width": 38,
+      "height": 45,
+      "packed_x": 197,
+      "packed_y": 458,
+      "packed_width": 44,
+      "packed_height": 51,
+      "source_size": [
+        38,
+        45
+      ],
+      "source_rect": [
+        0,
+        0,
+        38,
+        45
+      ],
+      "trimmed": false,
+      "source_path": "eye_r_highlight.PNG"
+    },
+    "eye_r_lid_lower": {
+      "x": 272,
+      "y": 427,
+      "width": 58,
+      "height": 12,
+      "packed_x": 269,
+      "packed_y": 424,
+      "packed_width": 64,
+      "packed_height": 18,
+      "source_size": [
+        58,
+        12
+      ],
+      "source_rect": [
+        0,
+        0,
+        58,
+        12
+      ],
+      "trimmed": false,
+      "source_path": "eye_r_lid_lower.PNG"
+    },
+    "eye_r_lid_upper": {
+      "x": 753,
+      "y": 3,
+      "width": 96,
+      "height": 69,
+      "packed_x": 750,
+      "packed_y": 0,
+      "packed_width": 102,
+      "packed_height": 75,
+      "source_size": [
+        96,
+        69
+      ],
+      "source_rect": [
+        0,
+        0,
+        96,
+        69
+      ],
+      "trimmed": false,
+      "source_path": "eye_r_lid_upper.PNG"
+    },
+    "eye_r_lid_upper_mask": {
+      "x": 620,
+      "y": 3,
+      "width": 127,
+      "height": 92,
+      "packed_x": 617,
+      "packed_y": 0,
+      "packed_width": 133,
+      "packed_height": 98,
+      "source_size": [
+        127,
+        92
+      ],
+      "source_rect": [
+        0,
+        0,
+        127,
+        92
+      ],
+      "trimmed": false,
+      "source_path": "eye_r_lid_upper_mask.PNG"
+    },
+    "face_base": {
+      "x": 3,
+      "y": 3,
+      "width": 353,
+      "height": 374,
+      "packed_x": 0,
+      "packed_y": 0,
+      "packed_width": 359,
+      "packed_height": 380,
+      "source_size": [
+        353,
+        374
+      ],
+      "source_rect": [
+        0,
+        0,
+        353,
+        374
+      ],
+      "trimmed": false,
+      "source_path": "face_base.PNG"
+    },
+    "face_effect_brush": {
+      "x": 3,
+      "y": 383,
+      "width": 263,
+      "height": 72,
+      "packed_x": 0,
+      "packed_y": 380,
+      "packed_width": 269,
+      "packed_height": 78,
+      "source_size": [
+        263,
+        72
+      ],
+      "source_rect": [
+        0,
+        0,
+        263,
+        72
+      ],
+      "trimmed": false,
+      "source_path": "face_effect/brush.PNG"
+    },
+    "face_effect_shock": {
+      "x": 362,
+      "y": 259,
+      "width": 290,
+      "height": 181,
+      "packed_x": 359,
+      "packed_y": 256,
+      "packed_width": 296,
+      "packed_height": 187,
+      "source_size": [
+        346,
+        221
+      ],
+      "source_rect": [
+        25,
+        23,
+        315,
+        204
+      ],
+      "trimmed": true,
+      "source_path": "face_effect/shock.png"
+    },
+    "face_effect_sweat": {
+      "x": 362,
+      "y": 3,
+      "width": 252,
+      "height": 250,
+      "packed_x": 359,
+      "packed_y": 0,
+      "packed_width": 258,
+      "packed_height": 256,
+      "source_size": [
+        252,
+        250
+      ],
+      "source_rect": [
+        0,
+        0,
+        252,
+        250
+      ],
+      "trimmed": false,
+      "source_path": "face_effect/sweat.PNG"
+    },
+    "mouth_brush": {
+      "x": 932,
+      "y": 3,
+      "width": 61,
+      "height": 19,
+      "packed_x": 929,
+      "packed_y": 0,
+      "packed_width": 67,
+      "packed_height": 25,
+      "source_size": [
+        61,
+        19
+      ],
+      "source_rect": [
+        0,
+        0,
+        61,
+        19
+      ],
+      "trimmed": false,
+      "source_path": "mouth/brush.PNG"
+    },
+    "mouth_mouth_angly": {
+      "x": 620,
+      "y": 201,
+      "width": 40,
+      "height": 18,
+      "packed_x": 617,
+      "packed_y": 198,
+      "packed_width": 46,
+      "packed_height": 24,
+      "source_size": [
+        40,
+        18
+      ],
+      "source_rect": [
+        0,
+        0,
+        40,
+        18
+      ],
+      "trimmed": false,
+      "source_path": "mouth/mouth_angly.PNG"
+    },
+    "mouth_mouth_happning": {
+      "x": 152,
+      "y": 461,
+      "width": 42,
+      "height": 42,
+      "packed_x": 149,
+      "packed_y": 458,
+      "packed_width": 48,
+      "packed_height": 48,
+      "source_size": [
+        42,
+        42
+      ],
+      "source_rect": [
+        0,
+        0,
+        42,
+        42
+      ],
+      "trimmed": false,
+      "source_path": "mouth/mouth_happning.PNG"
+    },
+    "mouth_mouth_normal": {
+      "x": 3,
+      "y": 461,
+      "width": 63,
+      "height": 47,
+      "packed_x": 0,
+      "packed_y": 458,
+      "packed_width": 69,
+      "packed_height": 53,
+      "source_size": [
+        63,
+        47
+      ],
+      "source_rect": [
+        0,
+        0,
+        63,
+        47
+      ],
+      "trimmed": false,
+      "source_path": "mouth/mouth_normal.PNG"
+    },
+    "mouth_mouth_sad": {
+      "x": 932,
+      "y": 28,
+      "width": 71,
+      "height": 16,
+      "packed_x": 929,
+      "packed_y": 25,
+      "packed_width": 77,
+      "packed_height": 22,
+      "source_size": [
+        71,
+        16
+      ],
+      "source_rect": [
+        0,
+        0,
+        71,
+        16
+      ],
+      "trimmed": false,
+      "source_path": "mouth/mouth_sad.PNG"
+    },
+    "mouth_mouth_smile": {
+      "x": 369,
+      "y": 446,
+      "width": 72,
+      "height": 61,
+      "packed_x": 366,
+      "packed_y": 443,
+      "packed_width": 78,
+      "packed_height": 67,
+      "source_size": [
+        72,
+        61
+      ],
+      "source_rect": [
+        0,
+        0,
+        72,
+        61
+      ],
+      "trimmed": false,
+      "source_path": "mouth/mouth_smile.PNG"
+    },
+    "mouth_mouthshock": {
+      "x": 272,
+      "y": 446,
+      "width": 91,
+      "height": 60,
+      "packed_x": 269,
+      "packed_y": 443,
+      "packed_width": 97,
+      "packed_height": 66,
+      "source_size": [
+        91,
+        60
+      ],
+      "source_rect": [
+        0,
+        0,
+        91,
+        60
+      ],
+      "trimmed": false,
+      "source_path": "mouth/mouthshock.PNG"
+    },
+    "mouth_shobon": {
+      "x": 620,
+      "y": 225,
+      "width": 27,
+      "height": 14,
+      "packed_x": 617,
+      "packed_y": 222,
+      "packed_width": 33,
+      "packed_height": 20,
+      "source_size": [
+        27,
+        14
+      ],
+      "source_rect": [
+        0,
+        0,
+        27,
+        14
+      ],
+      "trimmed": false,
+      "source_path": "mouth/shobon.PNG"
+    },
+    "mouth_sweat": {
+      "x": 272,
+      "y": 383,
+      "width": 81,
+      "height": 38,
+      "packed_x": 269,
+      "packed_y": 380,
+      "packed_width": 87,
+      "packed_height": 44,
+      "source_size": [
+        81,
+        38
+      ],
+      "source_rect": [
+        0,
+        0,
+        81,
+        38
+      ],
+      "trimmed": false,
+      "source_path": "mouth/sweat.PNG"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "atlas": {
+    "image": "atlas.png",
+    "width": 1042,
+    "height": 1042,
+    "padding": 2,
+    "alpha_threshold": 128,
+    "square": true
+  },
+  "sprites": {
+    "hair_c_q3_base.png": {
+      "x": 2,
+      "y": 2,
+      "width": 515,
+      "height": 523,
+      "source_size": [
+        515,
+        523
+      ],
+      "source_rect": [
+        0,
+        0,
+        515,
+        523
+      ],
+      "trimmed": false
+    },
+    "hair_c_front_base.png": {
+      "x": 2,
+      "y": 527,
+      "width": 524,
+      "height": 513,
+      "source_size": [
+        524,
+        513
+      ],
+      "source_rect": [
+        0,
+        0,
+        524,
+        513
+      ],
+      "trimmed": false
+    }
+  }
+}

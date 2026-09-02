@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "atlas": {
+    "image": "atlas.png",
+    "width": 411,
+    "height": 411,
+    "padding": 2,
+    "alpha_threshold": 128,
+    "square": true
+  },
+  "sprites": {
+    "foot_l_q3_base.png": {
+      "x": 2,
+      "y": 2,
+      "width": 146,
+      "height": 203,
+      "source_size": [
+        149,
+        208
+      ],
+      "source_rect": [
+        2,
+        3,
+        146,
+        203
+      ],
+      "trimmed": true
+    },
+    "foot_r_q3_base.png": {
+      "x": 150,
+      "y": 2,
+      "width": 146,
+      "height": 203,
+      "source_size": [
+        149,
+        208
+      ],
+      "source_rect": [
+        2,
+        3,
+        146,
+        203
+      ],
+      "trimmed": true
+    },
+    "foot_l_front_base.png": {
+      "x": 298,
+      "y": 2,
+      "width": 83,
+      "height": 202,
+      "source_size": [
+        83,
+        202
+      ],
+      "source_rect": [
+        0,
+        0,
+        83,
+        202
+      ],
+      "trimmed": false
+    },
+    "foot_r_front_base.png": {
+      "x": 2,
+      "y": 207,
+      "width": 83,
+      "height": 202,
+      "source_size": [
+        83,
+        202
+      ],
+      "source_rect": [
+        0,
+        0,
+        83,
+        202
+      ],
+      "trimmed": false
+    }
+  }
+}

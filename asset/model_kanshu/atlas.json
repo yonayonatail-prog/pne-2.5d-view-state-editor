@@ -1,0 +1,608 @@
+{
+  "schema_version": "2.0",
+  "atlas": {
+    "image": "atlas.png",
+    "width": 2048,
+    "height": 2712,
+    "padding": 3,
+    "extrude": true,
+    "trim": true,
+    "square": false
+  },
+  "sprites": {
+    "mihon": {
+      "x": 3,
+      "y": 3,
+      "width": 1024,
+      "height": 1536,
+      "source_size": [
+        1024,
+        1536
+      ],
+      "source_rect": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "trimmed": false,
+      "source_path": "mihon.png"
+    },
+    "back_arm_l": {
+      "x": 1030,
+      "y": 3,
+      "width": 404,
+      "height": 850,
+      "source_size": [
+        404,
+        850
+      ],
+      "source_rect": [
+        0,
+        0,
+        404,
+        850
+      ],
+      "trimmed": false,
+      "source_path": "back_arm_l.PNG"
+    },
+    "torso": {
+      "x": 3,
+      "y": 1542,
+      "width": 665,
+      "height": 658,
+      "source_size": [
+        665,
+        658
+      ],
+      "source_rect": [
+        0,
+        0,
+        665,
+        658
+      ],
+      "trimmed": false,
+      "source_path": "torso.PNG"
+    },
+    "hair_braised": {
+      "x": 671,
+      "y": 1542,
+      "width": 179,
+      "height": 583,
+      "source_size": [
+        179,
+        583
+      ],
+      "source_rect": [
+        0,
+        0,
+        179,
+        583
+      ],
+      "trimmed": false,
+      "source_path": "hair_braised.PNG"
+    },
+    "spine": {
+      "x": 853,
+      "y": 1542,
+      "width": 520,
+      "height": 556,
+      "source_size": [
+        520,
+        556
+      ],
+      "source_rect": [
+        0,
+        0,
+        520,
+        556
+      ],
+      "trimmed": false,
+      "source_path": "spine.PNG"
+    },
+    "hair_front_side": {
+      "x": 1376,
+      "y": 1542,
+      "width": 327,
+      "height": 444,
+      "source_size": [
+        327,
+        444
+      ],
+      "source_rect": [
+        0,
+        0,
+        327,
+        444
+      ],
+      "trimmed": false,
+      "source_path": "hair_front_side.PNG"
+    },
+    "face_base": {
+      "x": 1706,
+      "y": 1542,
+      "width": 298,
+      "height": 333,
+      "source_size": [
+        298,
+        333
+      ],
+      "source_rect": [
+        0,
+        0,
+        298,
+        333
+      ],
+      "trimmed": false,
+      "source_path": "face_base.PNG"
+    },
+    "ftont_arm_l": {
+      "x": 3,
+      "y": 2203,
+      "width": 413,
+      "height": 311,
+      "source_size": [
+        413,
+        311
+      ],
+      "source_rect": [
+        0,
+        0,
+        413,
+        311
+      ],
+      "trimmed": false,
+      "source_path": "ftont_arm_l.PNG"
+    },
+    "hair_back": {
+      "x": 419,
+      "y": 2203,
+      "width": 218,
+      "height": 311,
+      "source_size": [
+        218,
+        311
+      ],
+      "source_rect": [
+        0,
+        0,
+        218,
+        311
+      ],
+      "trimmed": false,
+      "source_path": "hair_back.PNG"
+    },
+    "back_arm_r": {
+      "x": 640,
+      "y": 2203,
+      "width": 336,
+      "height": 267,
+      "source_size": [
+        336,
+        267
+      ],
+      "source_rect": [
+        0,
+        0,
+        336,
+        267
+      ],
+      "trimmed": false,
+      "source_path": "back_arm_r.PNG"
+    },
+    "hat": {
+      "x": 979,
+      "y": 2203,
+      "width": 383,
+      "height": 221,
+      "source_size": [
+        383,
+        221
+      ],
+      "source_rect": [
+        0,
+        0,
+        383,
+        221
+      ],
+      "trimmed": false,
+      "source_path": "hat.PNG"
+    },
+    "hand_l": {
+      "x": 1365,
+      "y": 2203,
+      "width": 163,
+      "height": 209,
+      "source_size": [
+        163,
+        209
+      ],
+      "source_rect": [
+        0,
+        0,
+        163,
+        209
+      ],
+      "trimmed": false,
+      "source_path": "hand_l.PNG"
+    },
+    "hair_front": {
+      "x": 1531,
+      "y": 2203,
+      "width": 163,
+      "height": 197,
+      "source_size": [
+        163,
+        197
+      ],
+      "source_rect": [
+        0,
+        0,
+        163,
+        197
+      ],
+      "trimmed": false,
+      "source_path": "hair_front.PNG"
+    },
+    "hand_r": {
+      "x": 1697,
+      "y": 2203,
+      "width": 210,
+      "height": 192,
+      "source_size": [
+        210,
+        192
+      ],
+      "source_rect": [
+        0,
+        0,
+        210,
+        192
+      ],
+      "trimmed": false,
+      "source_path": "hand_r.PNG"
+    },
+    "front_arm_r": {
+      "x": 3,
+      "y": 2517,
+      "width": 534,
+      "height": 189,
+      "source_size": [
+        534,
+        189
+      ],
+      "source_rect": [
+        0,
+        0,
+        534,
+        189
+      ],
+      "trimmed": false,
+      "source_path": "front_arm_r.PNG"
+    },
+    "neck": {
+      "x": 540,
+      "y": 2517,
+      "width": 159,
+      "height": 167,
+      "source_size": [
+        159,
+        167
+      ],
+      "source_rect": [
+        0,
+        0,
+        159,
+        167
+      ],
+      "trimmed": false,
+      "source_path": "neck.PNG"
+    },
+    "accessory_hair": {
+      "x": 702,
+      "y": 2517,
+      "width": 92,
+      "height": 148,
+      "source_size": [
+        92,
+        148
+      ],
+      "source_rect": [
+        0,
+        0,
+        92,
+        148
+      ],
+      "trimmed": false,
+      "source_path": "accessory_hair.PNG"
+    },
+    "eye_core": {
+      "x": 797,
+      "y": 2517,
+      "width": 88,
+      "height": 96,
+      "source_size": [
+        88,
+        96
+      ],
+      "source_rect": [
+        0,
+        0,
+        88,
+        96
+      ],
+      "trimmed": false,
+      "source_path": "eye_core.PNG"
+    },
+    "eye_r_lod_lower_line": {
+      "x": 888,
+      "y": 2517,
+      "width": 220,
+      "height": 41,
+      "source_size": [
+        220,
+        41
+      ],
+      "source_rect": [
+        0,
+        0,
+        220,
+        41
+      ],
+      "trimmed": false,
+      "source_path": "eye_r_lod_lower_line.PNG"
+    },
+    "eye_l_highlight": {
+      "x": 1111,
+      "y": 2517,
+      "width": 37,
+      "height": 36,
+      "source_size": [
+        37,
+        36
+      ],
+      "source_rect": [
+        0,
+        0,
+        37,
+        36
+      ],
+      "trimmed": false,
+      "source_path": "eye_l_highlight.PNG"
+    },
+    "eye_l_sclera": {
+      "x": 1151,
+      "y": 2517,
+      "width": 70,
+      "height": 34,
+      "source_size": [
+        70,
+        34
+      ],
+      "source_rect": [
+        0,
+        0,
+        70,
+        34
+      ],
+      "trimmed": false,
+      "source_path": "eye_l_sclera.PNG"
+    },
+    "eye_r_sclera": {
+      "x": 1224,
+      "y": 2517,
+      "width": 45,
+      "height": 33,
+      "source_size": [
+        45,
+        33
+      ],
+      "source_rect": [
+        0,
+        0,
+        45,
+        33
+      ],
+      "trimmed": false,
+      "source_path": "eye_r_sclera.PNG"
+    },
+    "mouth_lagph": {
+      "x": 1272,
+      "y": 2517,
+      "width": 56,
+      "height": 33,
+      "source_size": [
+        56,
+        33
+      ],
+      "source_rect": [
+        0,
+        0,
+        56,
+        33
+      ],
+      "trimmed": false,
+      "source_path": "mouth_lagph.PNG"
+    },
+    "eye_l_lid_upper_line": {
+      "x": 1331,
+      "y": 2517,
+      "width": 72,
+      "height": 30,
+      "source_size": [
+        72,
+        30
+      ],
+      "source_rect": [
+        0,
+        0,
+        72,
+        30
+      ],
+      "trimmed": false,
+      "source_path": "eye_l_lid_upper_line.PNG"
+    },
+    "mouth": {
+      "x": 1406,
+      "y": 2517,
+      "width": 71,
+      "height": 28,
+      "source_size": [
+        71,
+        28
+      ],
+      "source_rect": [
+        0,
+        0,
+        71,
+        28
+      ],
+      "trimmed": false,
+      "source_path": "mouth.PNG"
+    },
+    "eye_r_lid_upper_line": {
+      "x": 1480,
+      "y": 2517,
+      "width": 53,
+      "height": 24,
+      "source_size": [
+        53,
+        24
+      ],
+      "source_rect": [
+        0,
+        0,
+        53,
+        24
+      ],
+      "trimmed": false,
+      "source_path": "eye_r_lid_upper_line.PNG"
+    },
+    "brow_l": {
+      "x": 1536,
+      "y": 2517,
+      "width": 66,
+      "height": 21,
+      "source_size": [
+        66,
+        21
+      ],
+      "source_rect": [
+        0,
+        0,
+        66,
+        21
+      ],
+      "trimmed": false,
+      "source_path": "brow_l.PNG"
+    },
+    "mouth_sad": {
+      "x": 1605,
+      "y": 2517,
+      "width": 48,
+      "height": 19,
+      "source_size": [
+        48,
+        19
+      ],
+      "source_rect": [
+        0,
+        0,
+        48,
+        19
+      ],
+      "trimmed": false,
+      "source_path": "mouth_sad.PNG"
+    },
+    "mouth_small_open": {
+      "x": 1656,
+      "y": 2517,
+      "width": 38,
+      "height": 19,
+      "source_size": [
+        38,
+        19
+      ],
+      "source_rect": [
+        0,
+        0,
+        38,
+        19
+      ],
+      "trimmed": false,
+      "source_path": "mouth_small_open.PNG"
+    },
+    "brow_r": {
+      "x": 1697,
+      "y": 2517,
+      "width": 41,
+      "height": 17,
+      "source_size": [
+        41,
+        17
+      ],
+      "source_rect": [
+        0,
+        0,
+        41,
+        17
+      ],
+      "trimmed": false,
+      "source_path": "brow_r.PNG"
+    },
+    "eye_r_lid_upper_line_ridline": {
+      "x": 1741,
+      "y": 2517,
+      "width": 28,
+      "height": 17,
+      "source_size": [
+        28,
+        17
+      ],
+      "source_rect": [
+        0,
+        0,
+        28,
+        17
+      ],
+      "trimmed": false,
+      "source_path": "eye_r_lid_upper_line_ridline.PNG"
+    },
+    "mouth_closed": {
+      "x": 1772,
+      "y": 2517,
+      "width": 37,
+      "height": 17,
+      "source_size": [
+        37,
+        17
+      ],
+      "source_rect": [
+        0,
+        0,
+        37,
+        17
+      ],
+      "trimmed": false,
+      "source_path": "mouth_closed.PNG"
+    },
+    "eye_l_lod_lower_line": {
+      "x": 1812,
+      "y": 2517,
+      "width": 39,
+      "height": 16,
+      "source_size": [
+        39,
+        16
+      ],
+      "source_rect": [
+        0,
+        0,
+        39,
+        16
+      ],
+      "trimmed": false,
+      "source_path": "eye_l_lod_lower_line.PNG"
+    }
+  }
+}
